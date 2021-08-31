@@ -1,0 +1,38 @@
+h1{
+  /*font-size:90px; but it is not dynamic */
+  font-size: 500%;    /* 1em=100%=16px*/
+  margin-top: 0;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+}
+main {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+.btn{
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 7px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #a5c5d9;
+  background-image: -webkit-linear-gradient(top, #a5c5d9, #08324f);
+  background-image: -moz-linear-gradient(top, #a5c5d9, #08324f);
+  background-image: -ms-linear-gradient(top, #a5c5d9, #08324f);
+  background-image: -o-linear-gradient(top, #a5c5d9, #08324f);
+  background-image: linear-gradient(to bottom, #a5c5d9, #08324f);
+  text-decoration: none;
+}
